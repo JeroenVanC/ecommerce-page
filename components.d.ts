@@ -11,5 +11,8 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TestComponent: typeof import('./src/components/TestComponent.vue')['default']
+    ZoomIcon: typeof import('./src/components/icons/ZoomIcon.vue')['default']
+    ZoomInIcon: typeof import('./src/components/icons/ZoomInIcon.vue')['default']
+    ZoonOutIcon: typeof import('./src/components/icons/ZoonOutIcon.vue')['default']
   }
 }
